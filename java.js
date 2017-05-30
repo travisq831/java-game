@@ -34,7 +34,7 @@ function game() {
         //window.open("https://www.youtube.com/watch?v=dQw4w9WgXcQ", "suprise", "width=600,height=200");
     }
     var ansfour = prompt("Fourth question, what continent is china in?");
-    if (ansfour === "Asia" || ansfour === "asia") {
+    if (ansfour === "Asia" ||"asia") {
         alert("nice job " + name);
     } else {
         alert("you arent the sharpest lightbulb in the tool shed");
@@ -63,7 +63,7 @@ function game() {
         var x = x + 1
     }
     console.log(x)
-    if (ansfour === "Asia" || ansfour === "asia") {
+    if (ansfour === "Asia" ||"asia") {
         var x = x + 1
     }
 
