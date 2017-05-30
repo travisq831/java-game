@@ -40,7 +40,7 @@ function game() {
         alert("you arent the sharpest lightbulb in the tool shed");
     }
     var ansfive = prompt("Fifth question, what is the population of Manila,Philippines");
-    if (ansfive === "12000000") {
+    if (ansfive === "12000000" || "12,000,000") {
         alert("lucky guess...");
     } else {
         alert("everyone knows that one come on");
@@ -83,3 +83,12 @@ function game() {
 }
 
 window.onload = main;
+window.onload = credits;
+
+function credits(){
+	var btn2 = document.getElementById("crediter");
+    btn2.addEventListener("click", credit);
+}
+function credit(){
+	window.open("credits.html")
+}
