@@ -31,7 +31,7 @@ function game() {
     } 
     else {
         alert("YOU ARENT THE REAL "+name)
-        //window.open("https://www.youtube.com/watch?v=dQw4w9WgXcQ", "suprise", "width=600,height=200");
+        window.open("https://www.youtube.com/watch?v=dQw4w9WgXcQ", "suprise", "width=600,height=200");
     }
     var ansfour = prompt("Fourth question, what continent is china in?");
     if (ansfour === "Asia" ||"asia") {
@@ -46,7 +46,6 @@ function game() {
         alert("everyone knows that one come on");
     }
     alert("That took way to long to complete. I can see why you are still in the first grade");
-    alert("oh and " + name + " your mother called");
     alert("here are your answers");
     alert("1." + ansone + " 2." + anstwo + " 3." + ansthree + " 4." + ansfour + " 5." + ansfive);
     alert("Thank you for part taking in the demo for this quiz game prototype");
