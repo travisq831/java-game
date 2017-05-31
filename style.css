@@ -28,3 +28,8 @@ body,html{
 	margin-top:60px;
 	position:static;
 }
+#credit{
+text-align:center;
+font-size:27;
+border:1px solid white;
+}
