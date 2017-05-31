@@ -1,6 +1,15 @@
+function credits(){
+	var cred = document.getElementById("crediter");
+    cred.addEventListener("click", credit);
+}
+function credit(){
+	window.open("credits.html")
+}
+
 function main() {
     var btn = document.getElementById("start");
     btn.addEventListener("click", game);
+    credits();
 }
 
 function game() {
@@ -31,19 +40,19 @@ function game() {
     } 
     else {
         alert("YOU ARENT THE REAL "+name)
-        window.open("https://www.youtube.com/watch?v=dQw4w9WgXcQ", "suprise", "width=600,height=200");
+        //window.open("https://www.youtube.com/watch?v=dQw4w9WgXcQ", "suprise", "width=600,height=200");
     }
     var ansfour = prompt("Fourth question, what continent is china in?");
     if (ansfour === "Asia" ||"asia") {
         alert("nice job " + name);
     } else {
-        alert("you arent the sharpest lightbulb in the tool shed");
+        alert("Clearly you arent the sharpest lightbulb in the tool shed");
     }
     var ansfive = prompt("Fifth question, what is the population of Manila,Philippines");
     if (ansfive === "12000000" || "12,000,000") {
-        alert("lucky guess...");
+        alert("Lucky guess...");
     } else {
-        alert("everyone knows that one come on");
+        alert("Everyone knows that one come on");
     }
     alert("That took way to long to complete. I can see why you are still in the first grade");
     alert("here are your answers");
@@ -80,14 +89,4 @@ function game() {
         alert("better luck next time!")
     }
 }
-
 window.onload = main;
-window.onload = credits;
-
-function credits(){
-	var btn2 = document.getElementById("crediter");
-    btn2.addEventListener("click", credit);
-}
-function credit(){
-	window.open("credits.html")
-}
